@@ -6,9 +6,10 @@ class Anagram
     @anagram = anagram
   end
 
-  def anagram_detector(anagram)
-    @anagram.split(//)==self.match(%w())
+  def match(array)
+    array.select do |word_in_array|
+      (@anagram.split("").sort == (word_in_array.split("").sort)
+    end
   end
-
 
 end
