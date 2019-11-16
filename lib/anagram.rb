@@ -9,6 +9,6 @@ class Anagram
   def anagram_detector(anagram)
     anagram.split(//)==.match(%w())
   end
-    
+
 
 end
