@@ -7,7 +7,7 @@ class Anagram
   end
 
   def anagram_detector(anagram)
-    anagram.split(//)==self.match(%w())
+    @anagram.split(//)==self.match(%w())
   end
 
 
